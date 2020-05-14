@@ -3,9 +3,12 @@
 `docker info`
 
 #### List everything
-`docker ps`   
+`docker ps`
+
  or  
+
  `docker ps -a`   
+
  This will show non running images too
 
 #### Run a container
@@ -14,7 +17,8 @@
 
 #### Delete
 
-Uses `rm` for 'remove' functionality.  
+ `rm` = remove
+
 `docker container rm <name>`
 
 `docker rm $(docker ps -aq) -f`  The -f here is to force quit running containers.
